@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      
+    />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <body class="html_body">
+  <!-- <div class="sidebar"> -->
+  <nav id="main-nav" class="nav_bar">
+    <a href="https://deepthought.education/assets/images/logo/logo.svg"><img class="logo"
+        src="https://deepthought.education/assets/images/logo/logo.svg" alt="" /></a>
+    <div class="actions_bar">
+      <div class="action_icon">
+        <span class="material-icons">
+          account_circle
+        </span>
+      </div>
+      <div class="action_icon">
+        <span class="material-icons">
+          home
+        </span>
+      </div>
+      <div class="action_icon">
+        <span class="material-icons">
+          notifications
+        </span>
+      </div>
+      <div class="action_icon">
+        <span class="material-icons">
+          settings
+        </span>
+      </div>
+
+    </div>
+  </nav>
+    <div class="body">
+      <div class="left">
+        <div class="drawer__open" id="drawerClose">
+          <div class="drawer__head__open" id="drawerHeadClose">
+            <div>
+              <button
+                class="button__one__open stacker"
+                id="buttonOneClose"
+                style="vertical-align: middle"
+                onclick="closeDrawer()"
+              >
+                <span
+                  ><i id="journeyTag">Journey Board</i>
+                  <svg
+                    width="20"
+                    height="12"
+                    viewBox="0 0 24 18"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.671875 0.518066H23.284V3.34459H0.671875V0.518066ZM0.671875 7.58436H23.284V10.4109H0.671875V7.58436ZM0.671875 14.6507H23.284V17.4772H0.671875V14.6507Z"
+                      fill="white"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="pane__open" id="pane">
+            <div class="pane__btn">
+              <button id="btn" class="btn__close">1</button>
+              <div class="pane__title" id="demotask1"></div>
+              <ul class="pane__content" id="sidebarli"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="content">
+          <div class="title">YOU ARE TAKING CHALLENGES OF NEW PROJECT</div>
+          <div class="font" id="demotask2"></div>
+
+          <div class="container">
+            <div class="item">
+              <div class="header" id="asset1"></div>
+              <div class="item__body" id="asset11"></div>
+            </div>
+
+            <div class="item">
+              <div class="header" id="asset2"></div>
+              <div class="form-style-8 item__body">
+                <form>
+                  <div id="asset21"></div>
+                  <div id="asset22"></div>
+                  <input
+                    type="url"
+                    name="field3"
+                    placeholder="https://deepthought.education/"
+                  />
+                  <div id="asset23"></div>
+                  <div
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    "
+                  >
+                    <input type="button" value="Send Message" />
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="item">
+              <div class="header" id="asset3"></div>
+              <div class="item__body" id="asset31"></div>
+            </div>
+
+            <div class="item">
+              <div class="header" id="asset4"></div>
+              <div class="item__body" id="asset41"></div>
+            </div>
+
+            <div class="item">
+              <div class="header" id="asset5"></div>
+              <div class="item__body" id="asset51"></div>
+            </div>
+
+            <div class="item">
+              <div class="header" id="asset6"></div>
+              <form class="item__body" id="asset61"></form>
+            </div>
+            <div class="item">
+              <div class="header" id="asset7"></div>
+              <div class="wrap-collabsible item__body">
+                <input id="collapsible" class="toggle" type="checkbox" />
+                <label for="collapsible" class="lbl-toggle">click here</label>
+                <div class="collapsible-content">
+                  <div class="content-inner" id="asset71"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="header" id="asset8"></div>
+              <div class="item__body" id="asset81"></div>
+            </div>
+            <div class="item long">
+              <div class="header" id="asset9"></div>
+              <div class="item__body" id="asset91"></div>
+            </div>
+          </div>
+          <div style="margin-left: 90%">
+          <button
+            class="button__one__close button__two"
+            style="vertical-align: middle"
+          >
+            <span>NEXT </span>
+          </button>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+  <script src="project.js"></script>
+  <script src="project_json.js"></script>
+</html>
